@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+
+body {
+  background: url(./currency.jpeg);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  text-align: center;
+
+}
+h1 {
+  margin: 0;
+  margin-bottom: .9rem;
+  color: antiquewhite;
+}
+
+.input {
+  border:1px solid rgb(61, 55, 55);
+  border-radius: .5em;
+  padding: .20rem;
+  width: 8em;
+}
+
+select {
+  margin-left: .5rem;
+}
+
+.equivalent {
+  color: beige;
+  font-weight: bold;
+  font-size: 2rem;
+
+}
